@@ -1,3 +1,4 @@
+.button-1,
 .heading-1,
 .text-1 {
   --font-size: var(--font-size-1);
@@ -6,6 +7,7 @@
   --line-height: var(--line-height-1);
 }
 
+.button-2,
 .heading-2,
 .text-2 {
   --font-size: var(--font-size-2);
@@ -14,6 +16,7 @@
   --line-height: var(--line-height-2);
 }
 
+.button-3,
 .heading-3,
 .text-3 {
   --font-size: var(--font-size-3);
@@ -22,6 +25,7 @@
   --line-height: var(--line-height-3);
 }
 
+.button-4,
 .heading-4,
 .text-4 {
   --font-size: var(--font-size-4);

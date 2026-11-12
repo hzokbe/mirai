@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AppHeader } from './components/header/app-header.component';
-import { Section } from './types/section';
 import { AppAside } from './components/aside/app-aside.component';
+import { Section } from './types/section';
 
 @Component({
   imports: [RouterOutlet, AppHeader, AppAside],
@@ -14,5 +14,6 @@ export class App {
     { id: 'about', label: 'Mirai' },
     { id: 'headings', label: 'Headings' },
     { id: 'texts', label: 'Texts' },
+    { id: 'buttons', label: 'Buttons' },
   ];
 }

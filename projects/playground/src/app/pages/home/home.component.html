@@ -2,10 +2,25 @@
   <section id="about">
     <h2 miraiHeading size="9">Mirai</h2>
     <p miraiText size="4">Radix Themes-inspired UI components for Angular.</p>
+    <div class="section-links">
+      <button fragment="headings" miraiButton routerLink="." type="button">
+        <ng-icon aria-hidden="true" name="radixArrowRight" />
+        Get started
+      </button>
+      <button
+        (click)="openRepository()"
+        miraiButton
+        type="button"
+        variant="outline"
+      >
+        <img alt="" height="" src="/github-logo.svg" />
+        GitHub
+      </button>
+    </div>
   </section>
   <section id="headings">
     <h3 miraiHeading size="8">Headings</h3>
-    <div>
+    <div class="section-content">
       <p miraiHeading size="1">Mirai</p>
       <p miraiHeading size="2">Mirai</p>
       <p miraiHeading size="3">Mirai</p>
@@ -19,7 +34,7 @@
   </section>
   <section id="texts">
     <h3 miraiHeading size="8">Texts</h3>
-    <div>
+    <div class="section-content">
       <p miraiText size="1">Mirai</p>
       <p miraiText size="2">Mirai</p>
       <p miraiText size="3">Mirai</p>
@@ -29,6 +44,19 @@
       <p miraiText size="7">Mirai</p>
       <p miraiText size="8">Mirai</p>
       <p miraiText size="9">Mirai</p>
+    </div>
+  </section>
+  <section id="buttons">
+    <h3 miraiHeading size="8">Buttons</h3>
+    <div class="section-content">
+      <button miraiButton size="1">Mirai</button>
+      <button miraiButton size="1" variant="outline">Mirai</button>
+      <button miraiButton size="2">Mirai</button>
+      <button miraiButton size="2" variant="outline">Mirai</button>
+      <button miraiButton size="3">Mirai</button>
+      <button miraiButton size="3" variant="outline">Mirai</button>
+      <button miraiButton size="4">Mirai</button>
+      <button miraiButton size="4" variant="outline">Mirai</button>
     </div>
   </section>
 </main>

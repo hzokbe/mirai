@@ -1,5 +1,9 @@
 :root {
+  --accent: #3d63dd;
+  --accent-hover: #3657c3;
   --bg: #fcfcfd;
+  --border-width: 1px;
+  --brightness-active: 0.95;
   --font-family: 'Ubuntu Sans';
   --font-size-1: 12px;
   --font-size-2: 14px;
@@ -11,6 +15,7 @@
   --font-size-8: 35px;
   --font-size-9: 60px;
   --font-weight-bold: 700;
+  --font-weight-medium: 500;
   --font-weight-regular: 400;
   --heading-line-height-1: 16px;
   --heading-line-height-2: 18px;
@@ -40,8 +45,16 @@
   --line-height-8: 40px;
   --line-height-9: 60px;
   --selection: #0044ff2d;
+  --space-1: 4px;
   --space-2: 8px;
+  --space-3: 12px;
   --space-4: 16px;
+  --space-5: 24px;
   --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --surface: #f9f9fb;
+  --surface-hover: #eff0f3;
+  --text-on-accent: #fcfcfd;
   --text-strong: #1e1f24;
 }
