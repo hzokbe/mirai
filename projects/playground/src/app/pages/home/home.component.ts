@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { MiraiHeading } from 'mirai';
+import { MiraiHeading, MiraiText } from 'mirai';
 
 @Component({
-  imports: [MiraiHeading],
+  imports: [MiraiHeading, MiraiText],
   selector: 'home-page',
   templateUrl: 'home.component.html',
 })

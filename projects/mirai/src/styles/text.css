@@ -1,0 +1,8 @@
+.text {
+  all: unset;
+  color: var(--text-strong);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
