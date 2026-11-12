@@ -15,5 +15,6 @@ export class App {
     { id: 'headings', label: 'Headings' },
     { id: 'texts', label: 'Texts' },
     { id: 'buttons', label: 'Buttons' },
+    { id: 'links', label: 'Links' },
   ];
 }

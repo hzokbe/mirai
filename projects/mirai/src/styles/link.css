@@ -1,0 +1,21 @@
+.link {
+  all: unset;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  text-decoration-thickness: min(2px, max(1px, 0.05em));
+}
+
+.link:active {
+  filter: brightness(var(--brightness-active));
+}
+
+.link:hover {
+  text-decoration-color: #0044ff2d;
+  text-decoration-line: underline;
+  text-decoration-thickness: min(2px, max(1px, 0.05em));
+  text-underline-offset: calc(0.025em + 2px);
+}
