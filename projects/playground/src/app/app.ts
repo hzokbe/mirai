@@ -17,5 +17,6 @@ export class App {
     { id: 'buttons', label: 'Buttons' },
     { id: 'links', label: 'Links' },
     { id: 'cards', label: 'Cards' },
+    { id: 'checkboxes', label: 'Checkboxes' },
   ];
 }
