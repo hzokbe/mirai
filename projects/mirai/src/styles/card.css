@@ -1,0 +1,27 @@
+.card {
+  background-color: var(--surface);
+  box-shadow: inset 0 0 0 var(--border-width) var(--border);
+  box-sizing: border-box;
+  display: flex;
+  padding: var(--card-padding);
+}
+
+.card-1 {
+  --card-padding: var(--space-3);
+}
+
+.card-2 {
+  --card-padding: var(--space-4);
+}
+
+.card-3 {
+  --card-padding: var(--space-5);
+}
+
+.card-4 {
+  --card-padding: var(--space-6);
+}
+
+.card-5 {
+  --card-padding: var(--space-8);
+}
