@@ -1,0 +1,17 @@
+<aside [class.visible]="visible()">
+  <nav>
+    <ul>
+      @for (item of sections(); track item.id) {
+        <li>
+          <a
+            [class.active]="activeSection() === item.id"
+            [fragment]="item.id"
+            routerLink="."
+          >
+            {{ item.label }}
+          </a>
+        </li>
+      }
+    </ul>
+  </nav>
+</aside>

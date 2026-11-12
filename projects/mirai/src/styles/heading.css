@@ -1,0 +1,8 @@
+.heading {
+  all: unset;
+  color: var(--text-strong);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--heading-line-height);
+}

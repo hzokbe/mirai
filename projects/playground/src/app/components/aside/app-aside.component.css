@@ -1,0 +1,91 @@
+aside {
+  display: none;
+  left: var(--space-6);
+  opacity: 0;
+  position: fixed;
+  top: 50%;
+  transform: translate(-256px, -50%);
+  transition:
+    opacity 0.5s,
+    transform 0.5s,
+    visibility 0.5s;
+  visibility: hidden;
+  width: 160px;
+  z-index: 1;
+}
+
+aside.visible {
+  opacity: 1;
+  transform: translate(0, -50%);
+  visibility: visible;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside a {
+  all: unset;
+  border-left: 2px solid transparent;
+  color: var(--accent);
+  cursor: pointer;
+  display: block;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  padding: var(--space-1) var(--space-3);
+  text-decoration-thickness: min(2px, max(1px, 0.05em));
+  transition: border-color 0.15s;
+}
+
+aside a:hover {
+  text-decoration-color: #0044ff2d;
+  text-decoration-line: underline;
+  text-underline-offset: calc(0.025em + 2px);
+}
+
+aside a:active {
+  filter: brightness(var(--brightness-active));
+}
+
+aside a.active {
+  border-left-color: currentColor;
+  font-weight: 600;
+}
+
+aside a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translate(-256px, -50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
+}
+
+.fade-in {
+  animation: slide 0.5s forwards;
+}
+
+.fade-out {
+  animation: slide 0.5s reverse forwards;
+}
+
+@media (min-width: 1100px) {
+  aside {
+    display: block;
+  }
+}
