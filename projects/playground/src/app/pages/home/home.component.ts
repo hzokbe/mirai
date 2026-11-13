@@ -6,6 +6,7 @@ import {
   MiraiCheckbox,
   MiraiHeading,
   MiraiLink,
+  MiraiRadio,
   MiraiText,
 } from 'mirai';
 import { RouterLink } from '@angular/router';
@@ -22,6 +23,7 @@ import { radixArrowRight } from '@ng-icons/radix-icons';
     MiraiCard,
     MiraiCheckbox,
     MiraiBadge,
+    MiraiRadio,
     NgIcon,
   ],
   selector: 'home-page',

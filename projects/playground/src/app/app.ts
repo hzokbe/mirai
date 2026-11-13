@@ -19,5 +19,6 @@ export class App {
     { id: 'cards', label: 'Cards' },
     { id: 'checkboxes', label: 'Checkboxes' },
     { id: 'badges', label: 'Badges' },
+    { id: 'radios', label: 'Radios' },
   ];
 }

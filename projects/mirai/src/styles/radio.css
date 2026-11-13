@@ -1,0 +1,45 @@
+.radio {
+  --radio-size: var(--space-4);
+  all: unset;
+  display: inline-block;
+  height: var(--radio-size);
+  position: relative;
+  width: var(--radio-size);
+}
+
+.radio::before,
+.radio::after {
+  border-radius: 100%;
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+
+.radio::before {
+  background-color: var(--surface);
+}
+
+.radio:not(:checked)::before {
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+.radio:checked::before {
+  background-color: var(--accent);
+}
+
+.radio::after {
+  background-color: var(--surface);
+  transform: scale(0.4);
+}
+
+.radio-1 {
+  --radio-size: calc(var(--space-4) * 0.875);
+}
+
+.radio-2 {
+  --radio-size: var(--space-4);
+}
+
+.radio-3 {
+  --radio-size: calc(var(--space-4) * 1.25);
+}
