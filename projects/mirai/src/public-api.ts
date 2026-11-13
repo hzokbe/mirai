@@ -6,3 +6,4 @@ export * from './lib/components/card/mirai-card.component';
 export * from './lib/components/checkbox/mirai-checkbox.directive';
 export * from './lib/components/badge/mirai-badge.directive';
 export * from './lib/components/radio/mirai-radio.directive';
+export * from './lib/components/separator/mirai-separator.component';

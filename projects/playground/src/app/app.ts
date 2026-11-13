@@ -20,5 +20,6 @@ export class App {
     { id: 'checkboxes', label: 'Checkboxes' },
     { id: 'badges', label: 'Badges' },
     { id: 'radios', label: 'Radios' },
+    { id: 'separators', label: 'Separators' },
   ];
 }

@@ -1,4 +1,6 @@
 aside {
+  backdrop-filter: blur(4px);
+  background-color: color-mix(in srgb, var(--bg) 20%, transparent);
   display: none;
   left: var(--space-6);
   opacity: 0;

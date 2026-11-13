@@ -1,0 +1,22 @@
+.separator {
+  background-color: var(--border);
+  display: block;
+  height: var(--border-width);
+  width: var(--separator-size);
+}
+
+.separator-1 {
+  --separator-size: var(--space-4);
+}
+
+.separator-2 {
+  --separator-size: var(--space-6);
+}
+
+.separator-3 {
+  --separator-size: var(--space-9);
+}
+
+.separator-4 {
+  --separator-size: 100%;
+}
