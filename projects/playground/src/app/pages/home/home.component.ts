@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {
+  MiraiBadge,
   MiraiButton,
   MiraiCard,
   MiraiCheckbox,
@@ -20,6 +21,7 @@ import { radixArrowRight } from '@ng-icons/radix-icons';
     MiraiLink,
     MiraiCard,
     MiraiCheckbox,
+    MiraiBadge,
     NgIcon,
   ],
   selector: 'home-page',
